@@ -1,23 +1,3 @@
-
-
-/* active menu item on click */
-$(document).ready(function() {
-    
-    'use strict';
-    
-    
-    $('.navbar-nav li a').click(function(){
-        
-        'use strict';
-        
-        $('.navbar-nav li a').parent().removeClass("active");
-        
-        $(this).parent().addClass("active");
-    
-    });
-});
-
-
 // Open the popup
 function openpopup() {
     document.getElementById("mypopup").style.display = "block";
